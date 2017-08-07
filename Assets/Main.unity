@@ -160,7 +160,7 @@ MonoBehaviour:
   m_ScriptCRCCheck: 1
   m_MaxDelay: 0.01
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 1271009479251154, guid: 718f03fd3e1668149969d166a8c2518d,
+  m_PlayerPrefab: {fileID: 1628551267884326, guid: bb7b1d29238b18040ae85d6d53b353bc,
     type: 2}
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 0
@@ -409,7 +409,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4210846061450714, guid: 1000b3f5a39a92a439c34c5a93823402, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4210846061450714, guid: 1000b3f5a39a92a439c34c5a93823402, type: 2}
       propertyPath: m_LocalRotation.z
@@ -417,11 +417,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4210846061450714, guid: 1000b3f5a39a92a439c34c5a93823402, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4210846061450714, guid: 1000b3f5a39a92a439c34c5a93823402, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210846061450714, guid: 1000b3f5a39a92a439c34c5a93823402, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1000b3f5a39a92a439c34c5a93823402, type: 2}
@@ -530,7 +534,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4441054502559604, guid: 6157fd3b958dd3442a735d2171a2b6a8, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4441054502559604, guid: 6157fd3b958dd3442a735d2171a2b6a8, type: 2}
       propertyPath: m_LocalRotation.z
@@ -538,11 +542,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4441054502559604, guid: 6157fd3b958dd3442a735d2171a2b6a8, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4441054502559604, guid: 6157fd3b958dd3442a735d2171a2b6a8, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441054502559604, guid: 6157fd3b958dd3442a735d2171a2b6a8, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6157fd3b958dd3442a735d2171a2b6a8, type: 2}

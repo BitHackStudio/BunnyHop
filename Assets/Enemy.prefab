@@ -108,6 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyOnDeath: 1
+  positions: []
   health: 100
 --- !u!114 &114184357501761300
 MonoBehaviour:
