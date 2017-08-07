@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Networking;
 
 public class Combat : NetworkBehaviour
 {
     public const int maxHealth = 100;
     public bool destroyOnDeath;
+    public List<GameObject> positions;
 
     [SyncVar]
     public int health = maxHealth;
@@ -36,8 +38,9 @@ public class Combat : NetworkBehaviour
     {
         if (isLocalPlayer)
         {
-            // move back to zero location
-            transform.position = Vector3.zero;
+            int idx = Random.Range(0, positions.Count);
+            // move back to default location
+            transform.position = positions[idx].transform.localPosition;
         }
     }
 }
